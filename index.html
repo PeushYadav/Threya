@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>त्रिया</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="try.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" onclick="scrollToIntro()">
+        <div class="black-box"></div>
+        <h1>त्रिया</h1>
+    </div>
+
+    <div id="introduction">
+        <div class="intro-content">
+            <img src="cafeteria.png" alt="Left Image">
+            <div class="intro-text">
+                <h2>Introduction</h2>
+                <p>
+                    At Treya, our mission is simple but profound: to create a world where women feel secure, empowered, and supported. In an ever-evolving world, safety shouldn’t be a luxury—it should be a right. Treya is dedicated to offering innovative solutions and resources that address the unique safety needs of women everywhere.
+                </p>
+                <br>
+                <br>
+                <p>
+                    Join us in our commitment to making safety a universal reality. Together, we can build a safer, more empowered future. Welcome to Treya—where safety meets empowerment.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function scrollToIntro() {
+            document.getElementById('introduction').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
